@@ -27,10 +27,10 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: MkDocs Template
-site_description: 'A template for future MkDocs wikis'
-site_author: 'Andre_601'
-#site_url: 'https://www.andre601.ch/mkdocs-template' # Uncomment to set a canonical URL
+site_name: 'Synavate Journey and Contribution Documentation'
+site_description: 'A home for our progress reports and public updates'
+site_author: 'Synavate Brainstem'
+site_url: 'https://www.synavate.tech' # Uncomment to set a canonical URL
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -57,7 +57,7 @@ copyright: |
 # | option.                                                                                                |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-docs_dir: docs/
+docs_dir: ./docs/
 
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -75,8 +75,8 @@ docs_dir: docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: Andre601/mkdocs-template
-repo_url: https://github.com/Andre601/mkdocs-template
+repo_name: Synavate Github Public Docs
+repo_url: https://github.com/synavate/Synapse-Stack.git
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -94,6 +94,11 @@ repo_url: https://github.com/Andre601/mkdocs-template
 # +--------------------------------------------------------------------------------------------------------+
 nav:
   - Welcome: index.md
+  - About: about.md
+  - Synapese: synapse.md
+  - SRE: sre.md
+  - MLOps: MLOps.md
+  - Stack: stack-list.md
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -119,6 +124,10 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   name: 'material'
+  icon:
+    repo: fontawesome/brands/git-alt  
+    logo: 'material/library'
+  include_sidebar: true
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -151,7 +160,7 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon             |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #favicon: 'assets/images/favicon.png'
+  favicon: 'assets/images/favicon.png'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -191,7 +200,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    primary: 'indigo'
+    primary: 'teal'
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -201,7 +210,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    accent: 'indigo'
+    accent: 'deep purple'
     
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -216,9 +225,9 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/                              |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #font:
-  #  text: 'Roboto'
-  #  code: 'Roboto Mono'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -266,31 +275,32 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/                           |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  features:
+    features:
+      -navigation.footer
   # Announce
   #
   #- announce.dismiss # Adds a "X" button to dismiss a news banner/mark it as read.*
   
-  # Header
-  #
-  #- header.autohide # Hide header when user scrolls past a specific point.
+#Header
   
-  # Navigation:
-  #
-  #- navigation.expand      # Expand all collapsable sections.
-  #- navigation.instant     # Instant loading pages.
+#header.autohide # Hide header when user scrolls past a specific point.
+  
+  Navigation:
+    - navigation.expand  
+    - navigation.instant
+    - navigation.tabs        
+         # Instant loading pages.
   #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
   #- navigation.sections    # Render top sections as groups.
-  - navigation.tabs         # Render top sections as tabs at the top.
+
   #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
   #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
   #- navigation.tracking    # Updates the url with highlighted section anchor.
   
-  # Search
-  #
-  #- search.highlight # Search will highlight the searched word(s) on the page.*
-  #- search.share     # Adds an option to share a search query link.*
-  #- search.suggest   # Search will suggest the likeliest completion for a word.*
+  Search:
+   - search.highlight
+   - search.share     # Adds an option to share a search query link.*
+   - search.suggest   # Search will suggest the likeliest completion for a word.*
   
   # Table of Contents
   #
@@ -321,9 +331,8 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo                |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  icon:
-    logo: 'material/library'
-    repo: 'material/library'
+
+
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -413,8 +422,8 @@ extra:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   social:
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Andre601/mkdocs-template'
+    - icon: fontawesome/brands/github
+      link: https://github.com/synavate
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -425,7 +434,7 @@ extra:
   # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#generator-notice          |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  #generator: true
+  generator: false
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -472,32 +481,48 @@ extra:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 markdown_extensions:
-  - markdown.extensions.admonition:
-  - markdown.extensions.codehilite:
-      guess_lang: false
-  - markdown.extensions.toc:
-      permalink: true
-  #- pymdownx.arithmex:
-  #- pymdownx.b64:
-  #- pymdownx.betterem:
-  #- pymdownx.caret:
-  #- pymdownx.critic:
-  #- pymdownx.details:
-  #- pymdownx.emoji:
-  #- pymdownx.escapeall:
-  #- pymdownx.extra:
-  #- pymdownx.extrarawhtml:
-  #- pymdownx.highlight:
-  #- pymdownx.inlinehilite:
-  #- pymdownx.keys:
-  #- pymdownx.magiclink:
-  #- pymdownx.mark:
-  #- pymdownx.pathconverter:
-  #- pymdownx.progressbar:
-  #- pymdownx.smartsymbols:
-  #- pymdownx.snippets:
-  #- pymdownx.striphtml:
-  #- pymdownx.superfences:
-  #- pymdownx.tabbed:
-  #- pymdownx.tasklist:
-  #- pymdownx.tilde:
+   #- markdown.extensions.pymdownx
+    #- pymdownx.arithmex
+    #- pymdownx.b64:
+    #- pymdownx.betterem:
+    #- pymdownx.caret:
+    #- pymdownx.critic:
+    #- pymdownx.details:
+    #- pymdownx.emoji
+    #- pymdownx.escapeall:
+    #- pymdownx.extra:
+    #- pymdownx.extrarawhtml:
+    #- pymdownx.highlight:
+    #- pymdownx.inlinehilite:
+    #- pymdownx.keys:
+    #- pymdownx.magiclink
+    #- pymdownx.mark:
+    #- pymdownx.pathconverter:
+    #- pymdownx.progressbar
+    #- pymdownx.smartsymbols:
+    #-pymdownx.sluggify
+    #- pymdownx.snippets:
+    #- pymdownx.striphtml:
+    #- pymdownx.superfences:
+    #- pymdownx.tabbed:
+    #- pymdownx.tasklist:
+    #- pymdownx.tilde:
+    - mkautodoc
+    - markdown.extensions.admonition
+    - markdown.extensions.codehilite:
+        guess_lang: false
+    - markdown.extensions.toc:
+        permalink: true
+ 
+plugins:
+  - search
+  - mermaid2
+  - blog:
+      post_dir: "blog/articles"
+      post_date_format: medium
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "post_url_date_format/slug"
+
+
+
+

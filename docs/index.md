@@ -1,7 +1,5 @@
 # Welcome to Synapse: Mapping the Future
 
-![Synapse Banner](https://yourimageurl.com/banner.jpg)
-
 ## 🧬 What is Synapse?
 
 Synapse is an experimental, groundbreaking tool designed to unravel and illuminate the complex tapestry of connections that exist across a myriad of subjects. It's a platform where data isn't just stored – it's contextualized, connected, and made meaningful. Synapse merges diverse data sources into an intricate graph-based model, shining a light on the hidden links in projects, professional fields, academic subjects, and more. It's where data transforms into insights.

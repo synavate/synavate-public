@@ -27,10 +27,10 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: 'Synavate: A Journey'
+site_name: 'Synavate: Synapse Development Team'
 site_description: 'A home for our progress reports and public updates'
 site_author: 'Synavate Brainstem'
-site_url: 'https://www.synavate.tech' # Uncomment to set a canonical URL
+site_url: 'https://www.synavate.tech' 
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |

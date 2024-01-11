@@ -27,7 +27,7 @@
 # | - https://www.mkdocs.org/user-guide/configuration/#site_url                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-site_name: 'Synavate Journey and Contribution Documentation'
+site_name: 'Synavate: A Journey'
 site_description: 'A home for our progress reports and public updates'
 site_author: 'Synavate Brainstem'
 site_url: 'https://www.synavate.tech' # Uncomment to set a canonical URL
@@ -76,7 +76,7 @@ docs_dir: ./docs/
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 repo_name: Synavate Github Public Docs
-repo_url: https://github.com/synavate/Synapse-Stack.git
+repo_url: https://github.com/synavate/synavate-public.git
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+
@@ -95,7 +95,7 @@ repo_url: https://github.com/synavate/Synapse-Stack.git
 nav:
   - Welcome: index.md
   - About: about.md
-  - Synapese: synapse.md
+  - Synapse: synapse.md
   - SRE: sre.md
   - MLOps: MLOps.md
   - Stack: stack-list.md

@@ -30,7 +30,7 @@
 site_name: 'Synavate: Synapse Development Team'
 site_description: 'A home for our progress reports and public updates'
 site_author: 'Synavate Brainstem'
-site_url: 'https://www.synavate.tech/index.html' 
+site_url: 'https://www.synavate.tech/' 
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -76,7 +76,7 @@ docs_dir: ./docs/
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 repo_name: Synavate Github Public Docs
-repo_url: https://github.com/synavate/synavate-public.git
+repo_url: https://github.com/synavate/synapse-stack.git
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
 # +--------------------------------------------------------------------------------------------------------+

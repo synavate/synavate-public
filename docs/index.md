@@ -2,7 +2,10 @@
 
 ## 🧬 What is Synapse?
 
-Synapse is an experimental, groundbreaking tool designed to unravel and illuminate the complex tapestry of connections that exist across a myriad of subjects. It's a platform where data isn't just stored – it's contextualized, connected, and made meaningful. Synapse merges diverse data sources into an intricate graph-based model, shining a light on the hidden links in projects, professional fields, academic subjects, and more. It's where data transforms into insights.
+## LAST UPDATE: 13/01/24 
+**In short - An R&D and sufficiently difficult project pre POC**
+
+Synapse is an experimental tool designed to unravel and illuminate the complex tapestry of connections that exist across a myriad of subjects. It's a platform where data isn't just stored – it's contextualized, connected, and made meaningful. Synapse merges diverse data sources into an intricate graph-based model, shining a light on the hidden links in projects, professional fields, academic subjects, and more. It's where data transforms into insights.
 
 ## 🌟 Why Synapse?
 
@@ -10,8 +13,11 @@ We believe in the power of connection – in data and in people. Synapse is for 
 
 The heart of modern data's value lies in its interconnections. Synapse leverages this by using graph structures to model not just data, but its interrelations, its context, its story. It's a tool for those who dare to delve deeper, seeking to understand not just the 'what' but the 'how' and 'why' of data.
 
+We've seen how large companies use data, and database structures like graphs for recommendation and user mapping, but not the generalization.
+
 ## 🔭 Current Focus and Next Steps
 
+- **Technical Feasibility:** Synapse is our most ambitious project yet and we're exploring the technology stack and technical feasibility with the resources available.
 - **POC Development**: We're in the early stages, experimenting with basic datasets to forge the initial mappings that will form the backbone of Synapse.
 - **Seeking Talent**: We're on the lookout for skilled front-end developers. Your expertise will be pivotal in bringing the knowledge graph to life, making it interactive, intuitive, and insightful.
 - **Enhancement and Scalability**: Our journey is ongoing. We're continuously refining our algorithms to deepen and enrich the connections within our graph, driven by the innovation of the FOSS community.
@@ -27,4 +33,4 @@ The heart of modern data's value lies in its interconnections. Synapse leverages
 
 ---
 
-Synapse isn't just a tool; it's a journey into the heart of data's potential. Join us in this adventure to map the unseen, connect the disparate, and illuminate the complex. 🌌🔍🌍
+Synapse isn't just a tool; it's a journey into the heart of data & beyond. Join us in this adventure to map the unseen, connect the disparate, and illuminate the complex. 🌌🔍🌍

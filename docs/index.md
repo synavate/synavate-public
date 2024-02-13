@@ -1,4 +1,7 @@
+<img src="./assets/synavate_logo.jpeg" width="40%" alt="Synapse Logo">
+
 # Welcome to Synapse: Mapping the Future
+
 
 ---
 

@@ -75,7 +75,7 @@ docs_dir: ./docs/
 # | - https://www.mkdocs.org/user-guide/configuration/#edit_uri                                            |
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
-repo_name: Synavate Github Public Docs
+repo_name: Synavate Github Public Repos
 repo_url: https://github.com/synavate/
 #edit_uri: tree/master/docs # Uncomment to define a different URI/URL for the "edit" option
 
@@ -95,9 +95,6 @@ repo_url: https://github.com/synavate/
 nav:
   - Welcome: index.md
   - About: about.md
-  - Synapse: synapse.md
-  - SRE: sre.md
-  - MLOps: MLOps.md
   - Stack: stack-list.md
 
 # +--------------------------------------------------------------------------------------------------------+

@@ -1,4 +1,4 @@
-<img src="./assets/synavate_logo.jpeg" width="40%" alt="Synapse Logo">
+<img src="./assets/synavate_logo.jpeg" width="50%" alt="Synapse Logo">
 
 # Welcome to Synapse: Mapping the Future
 
@@ -7,7 +7,9 @@
 
 ## 📣 **ANNOUNCEMENT** 📣
 
-**Synapse v0.0.1 POC** is now in **active development**, following a successful research phase, and launching on **GCP** for evaluation.
+**Synavate || Synapse: Now a member of the Google Startup Program providing cloud infrastructure support & Guidance**
+
+**Synapse v0.0.3 POC** is now in **active development**, following a successful research phase, and launching on **GCP** for evaluation.
 This milestone marks a significant step forward in our project.
 
 Watch this space for more updates as we progress! 🚀

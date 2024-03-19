@@ -1,4 +1,4 @@
-<img src="./assets/synavate_logo.jpeg" width="50%" alt="Synapse Logo">
+<img src="./assets/WhatsApp Image 2024-02-19 at 15.09.18.jpeg" width="50%" alt="Synapse Logo">
 
 # Welcome to Synapse by Synavate Labs: Mapping the Future
 
@@ -7,7 +7,10 @@
 
 ## 📣 **ANNOUNCEMENT** 📣
 
+17 March 2024: Synavate is trying to nail down a simple implementation of the project in order to proove it's efficacy.
+
 **Synavate || Synapse: Now a member of the Google Startup Program providing cloud infrastructure support & Guidance**
+                       ***Also part of the MongoDB program and NVIDIA Inception Program***
 
 **Synapse v0.0.3 POC** is now in **active development**, following a successful research phase, and launching on **GCP** for evaluation.
 This milestone marks a significant step forward in our project.

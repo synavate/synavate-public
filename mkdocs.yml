@@ -512,13 +512,14 @@ markdown_extensions:
         permalink: true
  
 plugins:
-  - search
-  - mermaid2
-  - blog:
-      post_dir: "blog/articles"
-      post_date_format: medium
-      post_url_date_format: yyyy/MM/dd
-      post_url_format: "post_url_date_format/slug"
+    - blog:
+          post_dir: "blog/posts"
+          post_date_format: medium
+          post_url_date_format: yyyy/MM/dd
+          post_url_format: "post_url_date_format/slug"
+    - search
+    - mermaid2
+  
 
 
 

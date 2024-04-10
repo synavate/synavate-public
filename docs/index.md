@@ -1,4 +1,4 @@
-<img src="./assets/WhatsApp Image 2024-02-19 at 15.09.18.jpeg" width="50%" alt="Synapse Logo">
+<img src="/Users/nullzero/Documents/repos/gitlab.com/synavate/synavate-public/docs/assets/synapse_iconWhite_190324.png" width="15%" alt="Synapse Logo">
 
 # Welcome to Synapse by Synavate Labs: Mapping the Future
 
@@ -8,6 +8,8 @@
 ## 📣 **ANNOUNCEMENT** 📣
 
 17 March 2024: Synavate is trying to nail down a simple implementation of the project in order to proove it's efficacy.
+
+View our proposed product offering and join our team of dreamers, technologists and dabblers.
 
 **Synavate || Synapse: Now a member of the Google Startup Program providing cloud infrastructure support & Guidance**
                        ***Also part of the MongoDB program and NVIDIA Inception Program***

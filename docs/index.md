@@ -2,6 +2,17 @@
 
 # Welcome to Synapse by Synavate Labs: Mapping the Future
 
+## We are entrants into the Blackbird Ventures accelerator and looking for a team to join this wild journey.
+
+### Our Projects so far:
+
+- Synapse: Github Link (The backbone of the endeavour - semantic extraction using Knowledge Graphs and LLMs.. maybe)
+- Orion Constellation Defensive AI: Github Link (Orion Hunts, Orion Agents, Cognitive Synthesis): Github Link
+- Timeless Love (Never let those you love misunderstand your love for them): Github Link
+
+Learning Mojo as part of the future in the world of Machine Learning.
+
+
 
 ---
 

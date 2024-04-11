@@ -1,6 +1,6 @@
 # Orion Constellation
 
-## Open Source Defensive AI Project
+## Open Source Defensive AI Platform
 ### Further enumeration pending
 
 ####  The Constellation: https://github.com/orion-constellation

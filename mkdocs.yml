@@ -45,7 +45,7 @@ site_url: 'https://www.synavate.tech/'
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 copyright: |
-  &copy; Synyata Brainstem
+  &copy; Synavate Core Brainstem
 
 # +--------------------------------------------------------------------------------------------------------+
 # |                                                                                                        |
@@ -94,7 +94,11 @@ repo_url: https://github.com/synavate/
 # +--------------------------------------------------------------------------------------------------------+
 nav:
   - Welcome: index.md
-  - About: about.md
+  - About Synavate: about.md
+  - Orion Threat Intel Constellation: orion-constellation.md
+  - Synapse Insight & Intelligence: synapse-insight.md
+  - Timeless Love: timeless-love.md
+
   - Stack: stack-list.md
 
 # +--------------------------------------------------------------------------------------------------------+

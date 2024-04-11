@@ -7,12 +7,15 @@
 ### Our Projects so far:
 
 - Synapse: Github Link (The backbone of the endeavour - semantic extraction using Knowledge Graphs and LLMs.. maybe)
-- Orion Constellation Defensive AI: Github Link (Orion Hunts, Orion Agents, Cognitive Synthesis): Github Link
+- Orion Constellation Defensive AI Threat Intelligence: Github Link (Orion Hunts, Orion Agents, Cognitive Synthesis): Github Link
 - Timeless Love (Never let those you love misunderstand your love for them): Github Link
 
-Learning Mojo as part of the future in the world of Machine Learning.
-
-
+- Lang
+  - Python
+    - Mojo (modular AI)
+  - Typescript
+  - Rust (early)
+  
 
 ---
 

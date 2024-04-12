@@ -1,11 +1,18 @@
 ---
-title: "First Blog Post"
+title: "Cognitive Synthesis - JabberWocky"
 date: 2024-04-11
 author: Snyata
 ---
 
-# An interest in Quantum ML: Expanded Edition
-## What are the actual use cases here? According to an arm chair enthusiast.
+## Cognitive Synthesis Blog Post + An Interest in Quantum ML: Expanded Edition
+https://alexandermoir.com/2024/04/11/orion-threat-intelligence/
+
+
+## What are the actual use cases here? Does it really smell like updog in here? An arm chair enthusiast goes exploring.
+
+## Cognitive Synthesis Blog Post
+https://alexandermoir.com/2024/04/11/orion-threat-intelligence/
+
 
 ## GPT4 tries to do Jabberwocky
 

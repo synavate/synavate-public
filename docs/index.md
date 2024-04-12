@@ -1,6 +1,7 @@
 <img src="./assets/synapse_iconWhite_190324.png" width="20%" alt="Synapse Logo">
 
-# Synavate Labs: "Research heavy" product development organization.
+# Synavate Labs: 
+# A "Research-ish" Product Development Organization.
 
 
 
